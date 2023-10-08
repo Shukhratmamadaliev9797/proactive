@@ -1,0 +1,31 @@
+.navbar {
+  width: 80% !important;
+  background-color: none !important;
+  margin: 0 auto;
+  padding: 0.8rem !important;
+  align-items: center;
+  &__logo {
+    width: 4.5rem;
+    margin-right: 5rem;
+  }
+  &__logoText {
+    margin-left: 0.5rem;
+    // color: ;
+  }
+  &__menu {
+    margin: 0 1.5rem;
+    font-size: 1.1rem !important;
+  }
+  &__apply {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ffbb5c;
+    border-radius: 1rem;
+    background: #ffbb5c;
+    color: #fff;
+    font-size: 1rem;
+  }
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
