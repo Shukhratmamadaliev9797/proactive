@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 0.8rem !important;
   align-items: center;
+
   &__logo {
     width: 4.5rem;
     margin-right: 5rem;
@@ -18,9 +19,9 @@
   }
   &__apply {
     padding: 0.5rem 2rem;
-    border: 1px solid #ffbb5c;
-    border-radius: 1rem;
-    background: #ffbb5c;
+    border: 1px solid #ff9100;
+    border-radius: 0.5rem;
+    background: #ff9100;
     color: #fff;
     font-size: 1rem;
   }

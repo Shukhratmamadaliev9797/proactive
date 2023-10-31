@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 export default function FeaturedUniversities() {
   return (
@@ -46,6 +47,9 @@ export default function FeaturedUniversities() {
           </SwiperSlide>
           <SwiperSlide>Slide 9</SwiperSlide>
         </Swiper>
+        <div className="featuredUniversities__learnmore">
+          <Link to="/universities">Learn more</Link>
+        </div>
       </div>
     </div>
   );

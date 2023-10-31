@@ -5,15 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import { FreeMode, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 export default function Header() {
   return (
     <div className="header">
-      <div>
-        <NavigationBar />
-      </div>
-
       <div className="header__container">
         <div className="header__textBox">
           <h1>
@@ -30,10 +26,15 @@ export default function Header() {
           slidesPerView={5}
           spaceBetween={7}
           freeMode={true}
+          loop={true}
           pagination={{
             clickable: true,
           }}
-          modules={[]}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
           className="header__swiper"
         >
           <SwiperSlide className="header__swiper-slide">
@@ -52,6 +53,13 @@ export default function Header() {
           </SwiperSlide>
           <SwiperSlide className="header__swiper-slide">
             <img src="/images/france.jpeg" alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="header__swiper-slide">
+            {" "}
+            <img src="/images/newyork.jpeg" alt="" />
+          </SwiperSlide>
+          <SwiperSlide className="header__swiper-slide">
+            <img src="/images/australia.jpeg" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

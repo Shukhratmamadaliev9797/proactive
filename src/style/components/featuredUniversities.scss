@@ -34,4 +34,10 @@
       }
     }
   }
+  &__learnmore {
+    text-align: right;
+    a {
+      text-decoration: solid !important;
+    }
+  }
 }

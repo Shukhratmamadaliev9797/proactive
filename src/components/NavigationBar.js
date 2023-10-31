@@ -24,17 +24,20 @@ export default function NavigationBar() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link className="navbar__menu" href="#action1">
+            <Nav.Link className="navbar__menu" href="/">
               Home
             </Nav.Link>
-            <Nav.Link className="navbar__menu" href="#action2">
+            <Nav.Link className="navbar__menu" href="/about">
               About Us
             </Nav.Link>
-            <Nav.Link className="navbar__menu" href="#action2">
+            <Nav.Link className="navbar__menu" href="/">
               Our Services
             </Nav.Link>
-            <Nav.Link className="navbar__menu" href="#">
+            <Nav.Link className="navbar__menu" href="/universities">
               Universities
+            </Nav.Link>
+            <Nav.Link className="navbar__menu" href="/contact">
+              Contact Us
             </Nav.Link>
           </Nav>
 

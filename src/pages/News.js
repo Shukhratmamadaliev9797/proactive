@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function News() {
   return (
@@ -75,9 +74,6 @@ export default function News() {
               </p>
             </div>
           </div>
-        </div>
-        <div className="news__learnmore">
-          <Link to="/news">Learn more</Link>
         </div>
       </div>
     </div>
