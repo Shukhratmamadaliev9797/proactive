@@ -31,7 +31,7 @@ export default function Contact() {
                 <h4 class="d-inline-block">
                   PHONE :
                   <br />
-                  <span>+12457836913 , +12457836913</span>
+                  <span>+44 7391 827833</span>
                 </h4>
               </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                 <h4 class="d-inline-block">
                   EMAIL :
                   <br />
-                  <span>example@info.com</span>
+                  <span>support@proactiveuz.com</span>
                 </h4>
               </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
                 <i class="fas fa-map-marker-alt"></i>
                 <h4 class="d-inline-block">
                   ADDRESS :<br />
-                  <span>6743 last street , Abcd, Xyz</span>
+                  <span>13 Gainsborough Road, E15 3AG, London, UK</span>
                 </h4>
               </div>
             </div>

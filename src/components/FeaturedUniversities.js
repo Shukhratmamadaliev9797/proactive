@@ -12,12 +12,32 @@ export default function FeaturedUniversities() {
           <h4>Featured Universities</h4>
         </div>
         <Swiper
-          slidesPerView={5}
-          spaceBetween={50}
+          slidesPerView={1}
+          spaceBetween={70}
           pagination={{
             clickable: true,
           }}
           modules={[Pagination]}
+          breakpoints={{
+            1200: {
+              slidesPerView: 5,
+              spaceBetween: 70,
+            },
+            1000: {
+              slidesPerView: 4,
+              spaceBetween: 70,
+            },
+
+            700: {
+              slidesPerView: 3,
+              spaceBetween: 70,
+            },
+            600: {
+              slidesPerView: 2,
+              spaceBetween: 70,
+            },
+          }}
+          loop={true}
           className="featuredUniversities__swiper
           "
         >
@@ -31,21 +51,17 @@ export default function FeaturedUniversities() {
             <img src="/images/greenwich-university.png" alt="" />
           </SwiperSlide>
           <SwiperSlide className="featuredUniversities__swiper-slide">
-            <img src="/images/harvard-university.png" alt="" />
+            <img src="/images/universities/saint-university.png" alt="" />
           </SwiperSlide>
           <SwiperSlide className="featuredUniversities__swiper-slide">
-            <img src="/images/cambridge-university.png" alt="" />
+            <img src="/images/universities/sydney-university.png" alt="" />
           </SwiperSlide>
           <SwiperSlide className="featuredUniversities__swiper-slide">
-            Slide 6
+            <img src="/images/universities/east-london-university.png" alt="" />
           </SwiperSlide>
           <SwiperSlide className="featuredUniversities__swiper-slide">
-            Slide 7
+            <img src="/images/universities/Queensland-university.png" alt="" />
           </SwiperSlide>
-          <SwiperSlide className="featuredUniversities__swiper-slide">
-            Slide 8
-          </SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
         </Swiper>
         <div className="featuredUniversities__learnmore">
           <Link to="/universities">Learn more</Link>

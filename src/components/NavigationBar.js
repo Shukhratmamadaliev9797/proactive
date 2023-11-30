@@ -17,8 +17,8 @@ export default function NavigationBar() {
           <img className="navbar__logo" src="/images/logo.png" alt="" />
           {/* <span className="navbar__logoText">Proactive</span> */}
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
@@ -28,16 +28,16 @@ export default function NavigationBar() {
               Home
             </Nav.Link>
             <Nav.Link className="navbar__menu" href="/about">
-              About Us
+              About
             </Nav.Link>
             <Nav.Link className="navbar__menu" href="/">
-              Our Services
+              Services
             </Nav.Link>
             <Nav.Link className="navbar__menu" href="/universities">
               Universities
             </Nav.Link>
             <Nav.Link className="navbar__menu" href="/contact">
-              Contact Us
+              Contact
             </Nav.Link>
           </Nav>
 

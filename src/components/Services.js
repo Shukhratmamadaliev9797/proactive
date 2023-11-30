@@ -57,8 +57,6 @@ export default function Services() {
               Learn more <i class="fas fa-chevron-circle-right"></i>
             </Link>
           </div>
-        </div>
-        <div className="services__services2">
           <div className="services__service">
             <span className="services__service-icon">
               <i class="icon fas fa-building"></i>
@@ -86,6 +84,7 @@ export default function Services() {
             </Link>
           </div>
         </div>
+        <div className="services__services2"></div>
       </div>
     </div>
   );

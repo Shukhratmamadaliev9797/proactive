@@ -1,6 +1,4 @@
 import React from "react";
-import NavigationBar from "./NavigationBar";
-import Button from "react-bootstrap/Button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -15,26 +13,37 @@ export default function Header() {
           <h1>
             We Help to <span>Build</span> Your <span>Dream</span>
           </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Praesentium, animi libero repellendus tenetur veniam eos qui velit
-            quibusdam possimus corrupti rem .
-          </p>
+          <p>Change The World With Us We are Here to Assist</p>
           <button>Contact Us</button>
         </div>
         <Swiper
-          slidesPerView={5}
+          slidesPerView={1}
           spaceBetween={7}
-          freeMode={true}
-          loop={true}
           pagination={{
             clickable: true,
           }}
           autoplay={{
-            delay: 1500,
+            delay: 500,
             disableOnInteraction: false,
           }}
+          loop={true}
           modules={[Autoplay]}
+          breakpoints={{
+            1200: {
+              slidesPerView: 5,
+              spaceBetween: 7,
+            },
+            1000: {
+              slidesPerView: 4,
+            },
+
+            700: {
+              slidesPerView: 3,
+            },
+            600: {
+              slidesPerView: 2,
+            },
+          }}
           className="header__swiper"
         >
           <SwiperSlide className="header__swiper-slide">

@@ -16,13 +16,18 @@ export default function Testimonial() {
       </div>{" "}
       <div className="testimonial__container">
         <Swiper
-          slidesPerView={2.5}
+          slidesPerView={1}
           spaceBetween={60}
           centeredSlides={false}
           pagination={{
             clickable: true,
           }}
           modules={[Pagination]}
+          breakpoints={{
+            1200: {
+              slidesPerView: 2.5,
+            },
+          }}
           className="testimonial__swiper"
         >
           <SwiperSlide className="testimonial__swiper-slide">

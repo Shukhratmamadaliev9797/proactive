@@ -4,7 +4,9 @@
   margin: 0 auto;
   padding: 0.8rem !important;
   align-items: center;
-
+  @media screen and (max-width: 1000px) {
+    width: 95% !important;
+  }
   &__logo {
     width: 4.5rem;
     margin-right: 5rem;
