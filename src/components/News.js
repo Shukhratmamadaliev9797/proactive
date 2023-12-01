@@ -22,16 +22,12 @@ export default function News() {
             <div className="news__newsList-news-content">
               <div>
                 <i class="fas fa-calendar"></i>
-                <span>17 Apr 2023</span>
+                <span>1 Dec 2023</span>
               </div>
-              <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                illum
-              </h5>
+              <h5>🇬🇧Free seminar on educational programs in Great Britain.</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-                iusto. Expedita ex ipsa laboriosam delectus doloremque quae
-                eveniet.
+                🚀 Dear observers and young students! Are you ready for a
+                special workshop organized by Proactiveuz? 🎙️...
               </p>
             </div>
           </div>
@@ -42,16 +38,14 @@ export default function News() {
             <div className="news__newsList-news-content">
               <div>
                 <i class="fas fa-calendar"></i>
-                <span>17 Apr 2023</span>
+                <span>1 Dec 2023</span>
               </div>
-              <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                illum
-              </h5>
+              <h5>Telegram Live Chat</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-                iusto. Expedita ex ipsa laboriosam delectus doloremque quae
-                eveniet.
+                Opportunities to study and work abroad (in England🇬🇧,
+                Australia🇦🇺, Canada🇨🇦, New Zealand🇳🇿, Ireland🇮🇪 and America🇺🇸)
+                during the weekly live chat; you can get live answers to the
+                questions...
               </p>
             </div>
           </div>
@@ -64,14 +58,12 @@ export default function News() {
                 <i class="fas fa-calendar"></i>
                 <span>17 Apr 2023</span>
               </div>
-              <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                illum
-              </h5>
+              <h5>Webinar</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-                iusto. Expedita ex ipsa laboriosam delectus doloremque quae
-                eveniet.
+                🚀 dear students, a new project is coming soon, and you can
+                participate in our webinar and receive up to 50% scholarships
+                for studying abroad. We will announce the winners of the
+                scholarships through our Instagram and Telegram channels.
               </p>
             </div>
           </div>

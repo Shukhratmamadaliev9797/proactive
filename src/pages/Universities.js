@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import data from "../data/data.js";
 import { Link } from "react-router-dom";
 
 export default function Universities() {
+  const [universities, setUniversities] = useState(data.universities);
+  const [category, setCategory] = useState("");
+
+  useEffect(() => {
+    const filteredUni = () => {
+      const filteredUniversities = universities.filter(
+        (university) => university.loc === category
+      );
+      setUniversities(filteredUniversities);
+    };
+    console.log(universities);
+    if (category) {
+      filteredUni();
+    } else {
+      setUniversities(data.universities);
+    }
+  }, [category]);
   return (
     <div className="universities">
       <div className="universities__container">
@@ -16,14 +33,14 @@ export default function Universities() {
           </p>
         </div>
         <div className="universities__categories">
-          <button>All</button>
-          <button>UK</button>
-          <button>USA</button>
-          <button>Australia</button>
-          <button>Canada</button>
+          <button onClick={() => setCategory("")}>All</button>
+          <button onClick={() => setCategory("UK")}>UK</button>
+          <button onClick={() => setCategory("US")}>USA</button>
+          <button onClick={() => setCategory("Australia")}>Australia</button>
+          <button onClick={() => setCategory("Canada")}>Canada</button>
         </div>
         <div className="universities__lists">
-          {data.universities.map((university) => {
+          {universities.map((university) => {
             return (
               <div className="universities__university">
                 <div className="universities__university-img">
