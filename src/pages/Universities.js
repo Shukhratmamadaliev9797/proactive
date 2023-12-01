@@ -26,10 +26,9 @@ export default function Universities() {
         <div className="universities__title">
           <h1>Top Universities</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam
-            rerum dolorum veritatis, tenetur, placeat quod aliquid sapiente
-            veniam ab nihil ullam, quibusdam excepturi illum eaque quae
-            asperiores possimus nobis.
+            We cooperate with the world's leading universities, and of course
+            you have the opportunity to choose the one that suits you in every
+            way, and a bright future awaits you with high quality education
           </p>
         </div>
         <div className="universities__categories">

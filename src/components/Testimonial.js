@@ -10,8 +10,8 @@ export default function Testimonial() {
           <b>Testimonial</b>
         </h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id libero
-          dolor, praesentium dolorum beatae iusto dolore eligendi quis.
+          Feedback from our Customers,They have started to change their life it
+          is your time
         </p>
       </div>{" "}
       <div className="testimonial__container">

@@ -9,10 +9,7 @@ export default function News() {
           <h3>
             <b>News</b>
           </h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id libero
-            dolor, praesentium dolorum beatae iusto dolore eligendi quis.
-          </p>
+          <p>It is easy to join us and Don’t miss opportunities</p>
         </div>
         <div className="news__newsList">
           <div className="news__newsList-news">

@@ -11,7 +11,7 @@ export default function Footer() {
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="cta-text">
                   <h4>Find us</h4>
-                  <span>1010 Avenue, sw 54321, chandigarh</span>
+                  <span>13 Gainsborough Road, E15 3AG, London, UK</span>
                 </div>
               </div>
             </div>
@@ -20,7 +20,7 @@ export default function Footer() {
                 <i class="fas fa-phone"></i>
                 <div class="cta-text">
                   <h4>Call us</h4>
-                  <span>9876543210 0</span>
+                  <span>+44 7391 827833</span>
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                 <i class="far fa-envelope-open"></i>
                 <div class="cta-text">
                   <h4>Mail us</h4>
-                  <span>mail@info.com</span>
+                  <span>support@proactiveuz.com</span>
                 </div>
               </div>
             </div>
@@ -139,8 +139,10 @@ export default function Footer() {
             <div class="col-xl-6 col-lg-6 text-center text-lg-left">
               <div class="copyright-text">
                 <p>
-                  Copyright &copy; 2018, All Right Reserved{" "}
-                  <a href="https://codepen.io/anupkumar92/">Anup</a>
+                  Copyright &copy; 2023, All Right Reserved{" "}
+                  <a href="https://www.linkedin.com/in/shukhrat-mamadaliev-b5423019a/">
+                    Shukhrat
+                  </a>
                 </p>
               </div>
             </div>

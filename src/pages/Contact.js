@@ -10,10 +10,10 @@ export default function Contact() {
             <span> Us </span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
-            <br />
-            incididunt ut labore et dolore magna aliqua.
+            Contact us and we will share with you the most necessary information
+            about education abroad, of course
+            <br /> we will use our many years of experience and knowledge and
+            your dream will come true with us
           </p>
         </div>
         <div class="row">

@@ -1,7 +1,7 @@
 const data = {
   universities: [
     {
-      image: "/images/universities/queen's-university.jpeg",
+      image: "/images/universities-pic/southbank-university.jpeg",
       location: "United Kingdom, London",
       name: "London South Bank University",
       rank: "801 - 1000 (QS World University Ranking)",
@@ -14,7 +14,7 @@ const data = {
       loc: "UK",
     },
     {
-      image: "/images/universities/ulster-university.jpeg",
+      image: "/images/universities-pic/east-london-university.jpeg",
       location: "United Kingdom, London",
       name: "University of East London",
       rank: "801 - 1000 (QS World University Ranking)",
@@ -27,7 +27,7 @@ const data = {
       loc: "UK",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/richmond-university.jpeg",
       location: "United Kingdom, London",
       name: "Richmond American University",
       rank: "-",
@@ -40,7 +40,7 @@ const data = {
       loc: "UK",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/bpp-university.webp",
       location: "United Kingdom, London",
       name: "BPP University",
       rank: "120 (Webometrics Ranking)",
@@ -53,7 +53,7 @@ const data = {
       loc: "UK",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/greenwich-university.jpeg",
       location: "United Kingdom, London",
       name: "University of Greenwich",
       rank: "751 - 800 (QS World University Ranking)",
@@ -66,7 +66,7 @@ const data = {
       loc: "UK",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/queensland-university.jpeg",
       location: "Australia, Brisbane, Sydney, Melbourne",
       name: "Central Queensland University",
       rank: "651 - 700 (QS World University Ranking)",
@@ -79,7 +79,7 @@ const data = {
       loc: "Australia",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/uts-university.jpeg",
       location: "Australia, Sydney, Melbourne",
       name: "University of Technology Sydney",
       rank: "137 (QS World University Ranking)",
@@ -105,7 +105,7 @@ const data = {
       loc: "Australia",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/ontario-university.jpeg",
       location: "Oshawa, Canada",
       name: "Ontario Tech University",
       rank: "-",
@@ -118,7 +118,7 @@ const data = {
       loc: "Canada",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/vancouver-university.jpeg",
       location: "Canada",
       name: "Vancouver Island University",
       rank: "1001-1200 (QS World University Ranking)",
@@ -131,7 +131,7 @@ const data = {
       loc: "Canada",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/cape-university.avif",
       location: "Sydney, Canada",
       name: "Cape Breton University",
       rank: "-",
@@ -144,7 +144,7 @@ const data = {
       loc: "Canada",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/saint-university.jpeg",
       location: "St. Louis, Missouri, US",
       name: "Saint Louis University",
       rank: "601-650 (QS World University Ranking)",
@@ -157,7 +157,7 @@ const data = {
       loc: "US",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
+      image: "/images/universities-pic/massachusetts-university.jpeg",
       location: "Boston, US",
       name: "University of Massachusetts Boston",
       rank: "701-750 (QS World University Ranking)",
