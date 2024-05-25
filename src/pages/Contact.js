@@ -31,7 +31,7 @@ export default function Contact() {
                 <h4 class="d-inline-block">
                   PHONE :
                   <br />
-                  <span>+44 7391 827833</span>
+                  <span>+44 7743 977311</span>
                 </h4>
               </div>
 

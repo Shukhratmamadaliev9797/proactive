@@ -20,7 +20,7 @@ export default function Footer() {
                 <i class="fas fa-phone"></i>
                 <div class="cta-text">
                   <h4>Call us</h4>
-                  <span>+44 7391 827833</span>
+                  <span>+44 7743 977311</span>
                 </div>
               </div>
             </div>
