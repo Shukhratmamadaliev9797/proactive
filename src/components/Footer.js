@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="cta-text">
                   <h4>Find us</h4>
-                  <span>13 Gainsborough Road, E15 3AG, London, UK</span>
+                  <span>UNIT 8 SUTTON BUSINESS CENTRE , Limehouse, London</span>
                 </div>
               </div>
             </div>
@@ -40,14 +41,14 @@ export default function Footer() {
             <div class="col-xl-4 col-lg-4 mb-50">
               <div class="footer-widget">
                 <div class="footer-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img
                       src="images/logo.png"
                       class="img-fluid"
                       alt="logo"
                       width={100}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div class="footer-text">
                   <p>

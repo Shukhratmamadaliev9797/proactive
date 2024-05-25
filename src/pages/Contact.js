@@ -48,7 +48,7 @@ export default function Contact() {
                 <i class="fas fa-map-marker-alt"></i>
                 <h4 class="d-inline-block">
                   ADDRESS :<br />
-                  <span>13 Gainsborough Road, E15 3AG, London, UK</span>
+                  <span>UNIT 8 SUTTON BUSINESS CENTRE , Limehouse, London</span>
                 </h4>
               </div>
             </div>
