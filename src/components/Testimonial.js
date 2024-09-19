@@ -33,7 +33,7 @@ export default function Testimonial() {
           <SwiperSlide className="testimonial__swiper-slide">
             <div className="testimonial__swiper-slide-img">
               <div>
-                <img src="/images/countries/test-1.avif" alt="" />
+                <img src="https://www.instagram.com/p/C_fewWuOdNp/" alt="" />
               </div>
               <div>
                 <h5>Doniyor Mekhmonov</h5>
