@@ -92,12 +92,12 @@ const data = {
       loc: "Australia",
     },
     {
-      image: "/images/universities/roehampton-university.jpeg",
-      location: "Australia, Sydney, Wollongong",
-      name: "Australia, Sydney, Wollongong",
-      rank: "185 (QS World University Ranking)",
+      image: "https://aimseducation.co.uk/wp-content/uploads/2023/11/Northumbria-University-Newcastle-800x420-1.jpg",
+      location: "United Kingdom, London",
+      name: "Northumbria University London",
+      rank: "550 (QS World University Ranking)",
       about:
-        "The University of Wollongong is one of Australia's top universities. It has an international research reputation, is rated highly by local and international students, and its graduates are su",
+        "Northumbria University is the top university of world. It has an international research reputation, is rated highly by local and international students,",
       facebook: "",
       twitter: "",
       linkedin: "",
@@ -105,7 +105,7 @@ const data = {
       loc: "Australia",
     },
     {
-      image: "/images/universities-pic/ontario-university.jpeg",
+      image: "https://theukstudyexpert.com/wp-content/uploads/2023/11/StudentsGroveHouse047.jpg",
       location: "Oshawa, Canada",
       name: "Ontario Tech University",
       rank: "-",
@@ -119,8 +119,8 @@ const data = {
     },
     {
       image: "/images/universities-pic/vancouver-university.jpeg",
-      location: "Canada",
-      name: "Vancouver Island University",
+      location: "United Kingdom,London",
+      name: "Roehampton University",
       rank: "1001-1200 (QS World University Ranking)",
       about:
         "At VIU, you matter, and you will find support every step of the way. We offer a broad network of student supports to make sure you’re set up for success even if things get tough. Along the way, you’ll learn how you can make a difference in your job, your community and maybe even the world. Find a program to match your interests as you prepare for a rewarding career and a fulfilling life.",
