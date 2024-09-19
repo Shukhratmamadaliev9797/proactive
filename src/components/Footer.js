@@ -42,12 +42,7 @@ export default function Footer() {
               <div class="footer-widget">
                 <div class="footer-logo">
                   <Link to="/">
-                    <img
-                      src="images/logo.png"
-                      class="img-fluid"
-                      alt="logo"
-                      width={100}
-                    />
+                   <span id='iasBadge' data-account-id='6225'></span><script async defer crossorigin="anonymous" src="https://www-cdn.icef.com/scripts/iasbadgeid.js"></script>
                   </Link>
                 </div>
                 <div class="footer-text">
