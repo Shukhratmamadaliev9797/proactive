@@ -41,9 +41,9 @@ export default function Footer() {
             <div class="col-xl-4 col-lg-4 mb-50">
               <div class="footer-widget">
                 <div class="footer-logo">
-                  <Link to="/">
+                 
                    <span id='iasBadge' data-account-id='6225'></span><script async defer crossorigin="anonymous" src="https://www-cdn.icef.com/scripts/iasbadgeid.js"></script>
-                  </Link>
+                  
                 </div>
                 <div class="footer-text">
                   <p>
