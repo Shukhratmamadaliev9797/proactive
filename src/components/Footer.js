@@ -47,9 +47,8 @@ export default function Footer() {
                 </div>
                 <div class="footer-text">
                   <p>
-                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
-                    sed do eiusmod tempor incididuntut consec tetur adipisicing
-                    elit,Lorem ipsum dolor sit amet.
+                 
+Proactive Agency accredited by ICEF is recognized for meeting high standards in the international education industry. ICEF accreditation is a mark of quality, demonstrating that the agency follows best practices in student recruitment, ethical guidelines, and professional service delivery.
                   </p>
                 </div>
                 <div class="footer-social-icon">
