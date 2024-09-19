@@ -33,7 +33,7 @@ export default function Testimonial() {
           <SwiperSlide className="testimonial__swiper-slide">
             <div className="testimonial__swiper-slide-img">
               <div>
-                <img src="https://www.instagram.com/p/C_fewWuOdNp/" alt="" />
+                <img src="https://instagram.flhr9-1.fna.fbcdn.net/v/t39.30808-6/458366209_17873437482156820_6132144780483386041_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.flhr9-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rnsN2RGmg7QQ7kNvgGHZYqA&_nc_gid=611582baca6d4e30bf3a648423205b28&edm=AP4sbd4AAAAA&ccb=7-5&ig_cache_key=MzQ0OTYxMTEwMzkxNzE2NzQ2NQ%3D%3D.3-ccb7-5&oh=00_AYAwmwTkMXqUQ7QxaWbWQ89GbYiIY43j5MlYxqXWtmh3CA&oe=66F231C3&_nc_sid=7a9f4b" alt="" />
               </div>
               <div>
                 <h5>Doniyor Mekhmonov</h5>
