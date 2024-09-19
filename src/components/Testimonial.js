@@ -65,7 +65,7 @@ export default function Testimonial() {
           <SwiperSlide className="testimonial__swiper-slide">
             <div className="testimonial__swiper-slide-img">
               <div>
-                <img src="/images/countries/test-3.avif" alt="" />
+                <img src="https://instagram.flhr9-1.fna.fbcdn.net/v/t39.30808-6/456694531_17871829998156820_5569571693785558249_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMjAweDEyMDAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.flhr9-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=RYwJn78F9scQ7kNvgEEVUDE&_nc_gid=611582baca6d4e30bf3a648423205b28&edm=AP4sbd4AAAAA&ccb=7-5&ig_cache_key=MzQ0MDg2NDA3OTk4MTg0ODA4Mg%3D%3D.3-ccb7-5&oh=00_AYDI8OTu2vIWNT53HY3FptSQfDBhkgP-P5-epW_gJg21_Q&oe=66F220D1&_nc_sid=7a9f4b" alt="" />
               </div>
               <div>
                 <h5>Asadbek Jurakulov</h5>
