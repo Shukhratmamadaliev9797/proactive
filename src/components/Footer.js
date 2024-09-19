@@ -21,7 +21,8 @@ export default function Footer() {
                 <i class="fas fa-phone"></i>
                 <div class="cta-text">
                   <h4>Call us</h4>
-                  <span>+44 7743 977311</span>
+                  <span>UK +44 7743 977311</span>
+    <span>UZ +998950220800</span>
                 </div>
               </div>
             </div>
@@ -31,6 +32,7 @@ export default function Footer() {
                 <div class="cta-text">
                   <h4>Mail us</h4>
                   <span>support@proactiveuz.com</span>
+    <span>javokhir@proactiveuz.com</span>
                 </div>
               </div>
             </div>
