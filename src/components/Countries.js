@@ -99,7 +99,7 @@ export default function Countries() {
           class="gallery__img"
         />
         <div className="gallery__item-text">
-          <span>New Zeland</span>
+          <span>New Zealand</span>
         </div>
       </div>
       <div class="gallery__item gallery__item--13">
