@@ -61,9 +61,9 @@ export default function Services() {
             <span className="services__service-icon">
               <i class="icon fas fa-building"></i>
             </span>
-            <h5>Accomodation</h5>
+            <h5>Accommodation</h5>
             <p>
-              We plan for your temporary accomodation when you land for your
+              We plan for your temporary accommodation when you land for your
               convenience
             </p>
             <Link>
